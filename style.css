@@ -1,0 +1,101 @@
+html,
+body {
+  font-size: 16px !important;
+  background-color: hsla(0, 0%, 0%, 1) !important;
+  background-image: radial-gradient(
+      at 79% 76%,
+      hsla(240, 100%, 70%, 0.42) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 19% 28%, hsla(240, 100%, 70%, 0.42) 0px, transparent 50%) !important;
+  background-repeat: no-repeat;
+  color: white !important;
+}
+#logo {
+  width: 5rem;
+}
+span,
+#about h2,
+#services h2,
+#projects h2,
+#contact h2 {
+  color: #f39efb;
+  text-align: center;
+}
+header nav {
+  background-color: rgb(47, 47, 101);
+}
+header .navbar-nav a {
+  color: white;
+}
+header .navbar-nav a:hover {
+  color: white;
+  font-weight: bold;
+}
+header .navbar-nav .active {
+  color: chartreuse !important;
+  font-weight: bold !important;
+}
+section {
+  height: 100vh;
+}
+#home h1,
+#home h5 span,
+#about span,
+#about .card-title,
+#services h4,
+#services h5,
+#projects h5,
+#projects h4 {
+  color: chartreuse;
+}
+#home .mybtn {
+  background-color: chartreuse;
+}
+#home .mybtn:hover {
+  color: black;
+  background-color: #f39efb;
+}
+#home .number {
+  padding: 0;
+  color: chartreuse;
+}
+#about .card,
+#services .card {
+  height: 256px;
+  transition: 0.3s;
+}
+#about .card:hover,
+#services .card:hover {
+  box-shadow: 5px 5px chartreuse;
+}
+#about .bg-teal,
+#services .bg-teal,
+#projects .bg-teal {
+  color: white;
+  background-color: teal;
+}
+#about h6 {
+  color: rgb(210, 250, 171);
+}
+#services .card i {
+  font-size: 30px;
+}
+#services .card a,
+#projects .card a {
+  color: chartreuse;
+  text-decoration: none;
+}
+#services .card a:hover,
+#projects .card a:hover {
+  padding: 10px;
+  border: 2px solid chartreuse;
+  border-radius: 5px;
+}
+#projects .card {
+  height: 450px;
+}
+#projects img {
+  height: 273px;
+  object-fit: cover;
+}
